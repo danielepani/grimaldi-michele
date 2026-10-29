@@ -14,7 +14,7 @@
 
 <div id="testata">
 <div id="logo">
-  <img src="grimaldilines.png" alt="Logo">
+  <img src="grimaldi2.png" alt="Logo">
 
 </div>
 
@@ -36,7 +36,9 @@
       <li><a href="#">A bordo</a></li>
       <li><a href="#">Iniziative speciali</a></li>
       <li><a href="#">Info utili</a></li>
+      <li><img src="search.svg" id="cerca"></li>
     </ul>
+
 
 
   </div>
@@ -51,16 +53,43 @@
       <div id="selettori">
         <div class="selettore">
           <img src="ship.svg" width="20px">
-          <select>
+          <label>
+            <select>
             <option>Seleziona andata</option>
             <option>sassari</option>
             <option>olbia</option>
             <option>casteddu</option>
-          </select>
+            </select>
+          </label>
+
         </div>
-        <div class="selettore">ciao</div>
-        <div class="selettore">ciao</div>
-        <div class="selettore">ciao</div>
+        <div class="selettore">
+          <img src="agenda.svg" width="20px">
+          <label>
+            <input type="date">
+          </label>
+        </div>
+        <div class="selettore">
+          <img src="ship.svg" width="20px">
+            <label>
+                <select>
+                <option>Seleziona ritorno</option>
+                <option>sassari</option>
+                <option>olbia</option>
+                <option>casteddu</option>
+                </select>
+            </label>
+        </div>
+        <div class="selettore">
+          <img src="agenda.svg" width="20px">
+          <label>
+            <input type="date">
+          </label>
+        </div>
+
+        <div id="bottone">
+            <button id="prenota">Prenota ora</button>
+        </div>
 
 
       </div>

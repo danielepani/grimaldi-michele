@@ -58,12 +58,14 @@ body{
 #footer{
     margin-left: 40px;
     margin-right: 40px;
-    background: darkblue ;
+    background: #0d3768 ;
     width: 100%;
     padding:20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #footer label{
@@ -73,16 +75,17 @@ body{
 
 #selettori{
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 .selettore{
     display: flex;
-    gap: 10px;
+    gap: 40px;
     background-color: white;
     color: black;
     padding: 20px;
     width: 19%;
+    border-radius: 10px;
 
 }
 
@@ -90,6 +93,62 @@ body{
     border: none;
     outline: none;
     background: transparent;
-    text-transform: uppercase;
     width: 70%;
+
+}
+
+.selettore input{
+    border: none;
+    outline: none;
+    background: transparent;
+
+    width: 70%;
+}
+
+.selettore label:after{
+    content: "";
+    width:30px;
+background-color: white;
+position: absolute;
+    height: 100%;
+    right: 30%;
+}
+
+.selettore label{
+    width: 100%;
+    position: relative;
+}
+
+.selettore label:has(input:not(:focus)):before{
+    content: "Scegli data";
+    color:black;
+    position: absolute;
+    background-color: white;
+
+}
+
+.selettore select{
+    font-family:inherit;
+    font-size:inherit;
+}
+
+#prenota{
+    background: #e1752d;
+    border: none;
+    outline: none;
+    width: 100%;
+    height:50%;
+    font-size:inherit;
+    color: white;
+    border-radius: 10px;
+}
+
+#bottone{
+    align-items: center;
+    display: flex;
+    width: 19%;
+}
+
+#cerca{
+    width: 20px;
 }
