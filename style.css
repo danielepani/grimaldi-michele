@@ -1,0 +1,95 @@
+#testata{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#logo{
+    width: 40%;
+}
+
+#testatadestra{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#su{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#su a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#hero {
+    height: 60vh;
+    background-image: url("GRIMALDIGRECIA.jpg");
+    align-items: flex-end;
+    display: flex;
+}
+
+#footer{
+    margin-left: 40px;
+    margin-right: 40px;
+    background: darkblue ;
+    width: 100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer label{
+    color: white;
+
+}
+
+#selettori{
+    display: flex;
+    gap: 5px;
+}
+
+.selettore{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 19%;
+
+}
+
+.selettore select{
+    border: none;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    width: 70%;
+}
